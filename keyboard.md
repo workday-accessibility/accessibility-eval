@@ -72,3 +72,50 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 |                                                                                                    |                                                                        |
 
 ## Full keyboard testing procedure
+
+<ol start="1" type="1">
+	<li>Ensure all actions can be performed by keyboard.
+		<ol start="1" type="a">
+			<li>iOS:
+				<ol start="1" type="i">
+					<li>if an action is not available, check if there are custom actions. Also try Tab + G to perform keyboard gestures. Depending on interpretation, keyboard gestures may not be a viable alternative for meeting 2.1.1.</li>
+				</ol>
+			</li>
+			<li>Android:
+				<ol start="1" type="i">
+					<li>if an action is not available. Open the  keyboard shortcuts list to check for any alternative methods to perform an action.</li>
+					<li>if you cannot access the top navigation pane or other segment of the screen, check if you can reach the area by using the “switch between panes” keystroke.</li>
+				</ol>
+			</li>
+		</ol>
+	</li>
+	<li>Ensure there are no keyboard traps.
+		<ol start="1" type="i">
+			<li>If an element receives keyboard focus, it should be possible to move focus away using standard inputs or there are instructions to guide users.</li>
+		</ol>
+	</li>
+	<li>Ensure the focus order is logical.
+		<ol start="1" type="a">
+			<li>When navigation sequences affect meaning and operability, focusable components need to receive focus in an order that preserves meaning and operability.</li>
+			<li>The focus order should generally follow the top to bottom start to end reading order but it may divert from this if the order.</li>
+			<li>When modals appear focus should be set on them and when dismissed, focus should be returned to the triggering element.</li>
+		</ol>
+	 </li>
+	<li>Ensure keyboard focus is visible.
+		<ol start="1" type="a">
+			<li>Users should always be able to tell which element has keyboard focus.</li>
+			<li>iOS:
+			<ol start="1" type="i">
+				<li>The default FKA indicator is enough and it can be customized in the Full Keyboard Access settings. </li>
+			</ol>
+			</li>
+			<li>Android:
+				<ol start="1" type="i">
+					<li>The default focus indicator tends to be very faint. In cases where the developer has not modified the default Android styles (unlikely), then the default indicator is sufficient.</li>
+				</ol>
+			</li>
+		</ol>
+		<li>When any user interface component receives focus, ensure it does not initiate a change of context. Note: this is unlikely to occur on native mobile apps.</li>
+
+</ol>
+
