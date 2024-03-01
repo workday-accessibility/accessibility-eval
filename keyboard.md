@@ -7,7 +7,7 @@ Any bluetooth keyboard should work. If you are testing both iOS and Android, it 
 ## Setting up a bluetooth keyboard on iOS
 1. Pair your keyboard with your iPhone by going to `Settings > Bluetooth` and setting Bluetooth `On`.
 2. Choose your bluetooth keyboard.
-3. Before using your keyboard, enable Full Keyboard access by going to `Accessibility > Keyboards > Full Keyboard Access`.
+3. Before using your keyboard, enable <abbr>FKA</abbr> (Full Keyboard Access) by going to `Accessibility > Keyboards > Full Keyboard Access`.
 
 ### Setting up a bluetooth keyboard on Android
 1. Pair your keyboard with your Android device by going to `Settings > Connected Devices > Pair new device`. 
@@ -17,12 +17,15 @@ Any bluetooth keyboard should work. If you are testing both iOS and Android, it 
 ### Android’s keyboard shortcuts
 After connecting the keyboard, go to `Settings > System > Languages & Input > Physical Keyboard > Keyboard Shortcuts`.
 This will display a list of keyboard shortcuts.
-![Android keyboard shortcuts](images/image1.png)
+
+<img src="images/image1.png" alt="Android keyboard shortcuts" width="250"/>
 
 The shortcut list uses a search icon which may be present on some keyboards such as the Logitech K480 and the Logitech K780. On other keyboards, such as Apple’s Magic Keyboard, this corresponds to the command key. 
 
 The list of shortcuts shown does not show how to perform some critical actions like navigating between the top bar and the main content and the keystrokes cannot be re-mapped.Refer to our keystrokes table for a full list.
-![Apple keyboard shortcus mapping](images/image2.png)
+
+<img src="images/image2.png" alt="Apple keyboard shortcuts mapping" width="250"/>
+
 
 ### iOS Full Keyboard Access Commands
 Go to `Settings > Accessibility > Keyboards > Full Keyboard Access > Commands`.
@@ -78,12 +81,12 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 <ol start="1" type="1">
 	<li>Ensure all actions can be performed by keyboard.
 		<ol start="1" type="a">
-			<li>iOS:
+			<li><strong>iOS:</strong>
 				<ol start="1" type="i">
-					<li>if an action is not available, check if there are custom actions. Also try Tab + G to perform keyboard gestures. Depending on interpretation, keyboard gestures may not be a viable alternative for meeting 2.1.1.</li>
+					<li>if an action is not available, check if there are custom actions. Also try <code>Tab + G</code> to perform keyboard gestures. Depending on interpretation, keyboard gestures may not be a viable alternative for meeting 2.1.1.</li>
 				</ol>
 			</li>
-			<li>Android:
+			<li><strong>Android:</strong>
 				<ol start="1" type="i">
 					<li>if an action is not available. Open the  keyboard shortcuts list to check for any alternative methods to perform an action.</li>
 					<li>if you cannot access the top navigation pane or other segment of the screen, check if you can reach the area by using the “switch between panes” keystroke.</li>
@@ -106,18 +109,56 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 	<li>Ensure keyboard focus is visible.
 		<ol start="1" type="a">
 			<li>Users should always be able to tell which element has keyboard focus.</li>
-			<li>iOS:
+			<li><strong>iOS:</strong>
 			<ol start="1" type="i">
-				<li>The default FKA indicator is enough and it can be customized in the Full Keyboard Access settings. </li>
+				<li>The default <abbr>FKA</abbr> indicator is enough and it can be customized in the Full Keyboard Access settings. </li>
 			</ol>
 			</li>
-			<li>Android:
+			<li><strong>Android:</strong>
 				<ol start="1" type="i">
 					<li>The default focus indicator tends to be very faint. In cases where the developer has not modified the default Android styles (unlikely), then the default indicator is sufficient.</li>
 				</ol>
 			</li>
 		</ol>
-		<li>When any user interface component receives focus, ensure it does not initiate a change of context. Note: this is unlikely to occur on native mobile apps.</li>
-
+	</li>
+	<li>When any user interface component receives focus, ensure it does not initiate a change of context. <strong>Note:</strong> this is unlikely to occur on native mobile apps.
+		<ol start="1" type="a">
+			<li>Ensure elements receive focus do not cause any of the following:
+				<ol start="1" type="i">
+					<li>forms submitted automatically;</li>
+					<li>new windows launched;</li>
+					<li>focus is changed to another component when that component receives focus;</li>
+					<li>Switching to a different app or user agent</li>
+					<li>Changes to content that affect the meaning of the screen/page.</li>
+				</ol>
+			</li>
+		</ol>
+	</li>
+	<li>Ensure character key shortcuts without modifiers can be remapped or turned off.
+		<ol start="1" type="a">
+			<li>Try inputting all of the alphabet, punctuation, number and symbol characters. If any of these keys are used alone then make ureone of the following is true:
+				<ol start="1" type="i">
+					<li>There is a mechanism available to turn the shortcut off;</li>
+					<li>A mechanism is available to remap the shortcut to include one or more non-printable keyboard keys (e.g., Ctrl, Alt/ption)</li>
+					<li>The keyboard shortcut for a user interface component is only active when that component has focus.</li>
+				</ol>
+			</li>
+		</ol>
+	</li>
+	<li>Ensure content which appears on focus, is persistent and dismissable. <strong>Note:</strong> this is unlikely to occur on native mobile apps.
+		<ol start="1" type="a">
+			<li>Where receiving and then keyboard focus triggers additional content to become visible and then hidden, the following are true:
+				<ol start="1" type="i">
+					<li>Dismissible: A mechanism is available to dismiss the additional content without moving keyboard focus, unless the additional content communicates an input error or does not obscure or replace other content;</li>
+					<li>Persistent: The additional content remains visible until the focus trigger is removed, the user dismisses it, or its information is no longer valid.</li>
+					<li>(Hoverable is not applicable to mobile because it is only for mouse hover.)</li>
+				</ol>
+			</li>
+		</ol>
+	</li>
 </ol>
+
+
+
+
 
