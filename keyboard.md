@@ -43,8 +43,8 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 | Go Back. This can be used to dismiss menus and popups.                                                                                       | `Command + Backspace` | `Search-icon key + back` |                  |
 | Exit                                                                                                                                         | `Esc`                 | `Esc`                    |                  |
 | Switch between apps                                                                                                                          | `Option + Tab`        | `Alt + Tab`              |                  |
-| Switch between panes such as top navigation pane and main content [^1]                                                                       | `command + Tab`       | `Search-icon key + Tab`  |                  |
-| Open keyboard shortcuts list. <br /> - The shortcuts for Home, Back and Notifications use the search-icon key which is just the command key. | `command + /`         | `Search-icon key + /`    |                  |
+| Switch between panes such as top navigation pane and main content [^1]                                                                       | `command + Tab`       | `Start + Tab`  |                  |
+| Open keyboard shortcuts list. <br /> - The shortcuts for Home, Back and Notifications use the search-icon key which is just the command key. | `command + /`         | `Start + /`    |                  |
 
 [^1]: On Android 14, switching between panes is done with control + tab
 
