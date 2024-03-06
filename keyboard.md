@@ -7,7 +7,7 @@ Any bluetooth keyboard should work. If you are testing both iOS and Android, it 
 ## Setting up a bluetooth keyboard on iOS
 1. Pair your keyboard with your iPhone by going to `Settings > Bluetooth` and setting Bluetooth `On`.
 2. Choose your bluetooth keyboard.
-3. Before using your keyboard, enable <abbr>FKA</abbr> (Full Keyboard Access) by going to `Accessibility > Keyboards > Full Keyboard Access`.
+3. Before using your keyboard, enable <abbr title="Full Keyboard Access">FKA</abbr> (Full Keyboard Access) by going to `Accessibility > Keyboards > Full Keyboard Access`.
 
 ### Setting up a bluetooth keyboard on Android
 1. Pair your keyboard with your Android device by going to `Settings > Connected Devices > Pair new device`. 
@@ -36,15 +36,15 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 
 |                                                                    Action                                                                    |     Magic keyboard    |      Logitech K480       | [keyboard model] |
 |----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|--------------------------|------------------|
-| Navigate to the next interactive element                                                                                                     | `Tab`                 | `Tab`                    |                  |
-| Navigate to the previous interactive element                                                                                                 | `Shift + Tab`         | `Shift + Tab`            |                  |
-| Scroll/Go to next item in group <br /> Select items in a collection, list, or menu                                                           | `Arrow keys`          | `Arrow keys`             |                  |
-| Activate an interactive element                                                                                                              | `Enter` or `Spacebar` | `Enter` or `Spacebar`    |                  |
-| Go Back. This can be used to dismiss menus and popups.                                                                                       | `Command + Backspace` | `Search-icon key + back` |                  |
-| Exit                                                                                                                                         | `Esc`                 | `Esc`                    |                  |
-| Switch between apps                                                                                                                          | `Option + Tab`        | `Alt + Tab`              |                  |
-| Switch between panes such as top navigation pane and main content [^1]                                                                       | `command + Tab`       | `Start + Tab`  |                  |
-| Open keyboard shortcuts list. <br /> - The shortcuts for Home, Back and Notifications use the search-icon key which is just the command key. | `command + /`         | `Start + /`    |                  |
+| Navigate to the next interactive element                                                                                                     | `Tab`                 | `tab`                    |                  |
+| Navigate to the previous interactive element                                                                                                 | `shift + tab`         | `shift + tab`            |                  |
+| Scroll/Go to next item in group <br /> Select items in a collection, list, or menu                                                           | `arrow keys`          | `arrow keys`             |                  |
+| Activate an interactive element                                                                                                              | `enter` or `space bar` | `enter` or `space bar`    |                  |
+| Go Back. This can be used to dismiss menus and popups.                                                                                       | `command + backspace` | `search-icon key + back` |                  |
+| Exit                                                                                                                                         | `Esc`                 | `esc`                    |                  |
+| Switch between apps                                                                                                                          | `option + tab`        | `alt + tab`              |                  |
+| Switch between panes such as top navigation pane and main content [^1]                                                                       | `command + tab`       | `start + tab`  |                  |
+| Open keyboard shortcuts list. <br /> - The shortcuts for Home, Back and Notifications use the search-icon key which is just the command key. | `command + /`         | `start + /`    |                  |
 
 [^1]: On Android 14, switching between panes is done with control + tab
 
@@ -52,15 +52,15 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 
 |                                       Action                                       |    Magic keyboard   | Logitech K480 | [keyboard model] |
 |------------------------------------------------------------------------------------|---------------------|---------------|------------------|
-| Navigate to the next interactive element                                           | `Tab`               |               |                  |
-| Navigate to the previous interactive element                                       | `Shift+Tab`         |               |                  |
-| Scroll/Go to next item in group <br /> Select items in a collection, list, or menu | `Arrow keys`        |               |                  |
-| Activate an interactive element                                                    | `Space bar`         |               |                  |
-| Show Help                                                                          | `Tab + H`           |               |                  |
-| Go Back. This can be used to dismiss menus and popups.                             | `Tab +  B`          |               |                  |
-| Exit                                                                               | `Esc`               |               |                  |
-| Show Custom Accessibility Actions                                                  | `Tab + Z`           |               |                  |
-| Switch between apps                                                                | `Function-Up Arrow` |               |                  |
+| Navigate to the next interactive element                                           | `tab`               |               |                  |
+| Navigate to the previous interactive element                                       | `shift + tab`         |               |                  |
+| Scroll/Go to next item in group <br /> Select items in a collection, list, or menu | `arrow keys`        |               |                  |
+| Activate an interactive element                                                    | `space bar`         |               |                  |
+| Show Help                                                                          | `tab + h`           |               |                  |
+| Go Back. This can be used to dismiss menus and popups.                             | `tab +  b`          |               |                  |
+| Exit                                                                               | `esc`               |               |                  |
+| Show Custom Accessibility Actions                                                  | `tab + z`           |               |                  |
+| Switch between apps                                                                | `function + up arrow` |               |                  |
 
 
 # Testing
@@ -83,13 +83,13 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 		<ol start="1" type="a">
 			<li><strong>iOS:</strong>
 				<ol start="1" type="i">
-					<li>if an action is not available, check if there are custom actions. Also try <code>Tab + G</code> to perform keyboard gestures. Depending on interpretation, keyboard gestures may not be a viable alternative for meeting 2.1.1.</li>
+					<li>If an action is not available, check if there are custom actions. Also try <code>tab + g</code> to perform keyboard gestures. Depending on interpretation, keyboard gestures may not be a viable alternative for meeting 2.1.1.</li>
 				</ol>
 			</li>
 			<li><strong>Android:</strong>
 				<ol start="1" type="i">
-					<li>if an action is not available. Open the  keyboard shortcuts list to check for any alternative methods to perform an action.</li>
-					<li>if you cannot access the top navigation pane or other segment of the screen, check if you can reach the area by using the “switch between panes” keystroke.</li>
+					<li>If an action is not available. Open the  keyboard shortcuts list to check for any alternative methods to perform an action.</li>
+					<li>If you cannot access the top navigation pane or other segment of the screen, check if you can reach the area by using the “switch between panes” keystroke.</li>
 				</ol>
 			</li>
 		</ol>
@@ -103,7 +103,7 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 		<ol start="1" type="a">
 			<li>When navigation sequences affect meaning and operability, focusable components need to receive focus in an order that preserves meaning and operability.</li>
 			<li>The focus order should generally follow the top to bottom start to end reading order but it may divert from this if the order.</li>
-			<li>When modals appear focus should be set on them and when dismissed, focus should be returned to the triggering element.</li>
+			<li>When a modal appears focus should be set in the modal and when dismissed, focus should be returned to the triggering element.</li>
 		</ol>
 	 </li>
 	<li>Ensure keyboard focus is visible.
@@ -111,7 +111,7 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 			<li>Users should always be able to tell which element has keyboard focus.</li>
 			<li><strong>iOS:</strong>
 			<ol start="1" type="i">
-				<li>The default <abbr>FKA</abbr> indicator is enough and it can be customized in the Full Keyboard Access settings. </li>
+				<li>The default <abbr title="Full Keyboard Access">FKA</abbr> indicator is enough and it can be customized in the Full Keyboard Access settings. </li>
 			</ol>
 			</li>
 			<li><strong>Android:</strong>
@@ -125,9 +125,9 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 		<ol start="1" type="a">
 			<li>Ensure elements receive focus do not cause any of the following:
 				<ol start="1" type="i">
-					<li>forms submitted automatically;</li>
-					<li>new windows launched;</li>
-					<li>focus is changed to another component when that component receives focus;</li>
+					<li>Forms submitted automatically;</li>
+					<li>New windows launched;</li>
+					<li>Focus is changed to another component when that component receives focus;</li>
 					<li>Switching to a different app or user agent</li>
 					<li>Changes to content that affect the meaning of the screen/page.</li>
 				</ol>
@@ -136,16 +136,16 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 	</li>
 	<li>Ensure character key shortcuts without modifiers can be remapped or turned off.
 		<ol start="1" type="a">
-			<li>Try inputting all of the alphabet, punctuation, number and symbol characters. If any of these keys are used alone then make ureone of the following is true:
+			<li>Try inputting all of the alphabet, punctuation, number and symbol characters. If any of these keys are used alone then make sure one of the following is true:
 				<ol start="1" type="i">
 					<li>There is a mechanism available to turn the shortcut off;</li>
-					<li>A mechanism is available to remap the shortcut to include one or more non-printable keyboard keys (e.g., Ctrl, Alt/ption)</li>
+					<li>A mechanism is available to remap the shortcut to include one or more non-printable keyboard keys (e.g., <code>Ctrl, Alt/Option</code>)</li>
 					<li>The keyboard shortcut for a user interface component is only active when that component has focus.</li>
 				</ol>
 			</li>
 		</ol>
 	</li>
-	<li>Ensure content which appears on focus, is persistent and dismissable. <strong>Note:</strong> this is unlikely to occur on native mobile apps.
+	<li>Ensure content which appears in focus, is persistent and dismissable. <strong>Note:</strong> this is unlikely to occur on native mobile apps.
 		<ol start="1" type="a">
 			<li>Where receiving and then keyboard focus triggers additional content to become visible and then hidden, the following are true:
 				<ol start="1" type="i">
@@ -159,6 +159,10 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 </ol>
 
 
-
+## References
+### Apple iPhone
+* [	Adjust the onscreen and external keyboard settings on iPhone - Apple Support](https://support.apple.com/guide/iphone/adjust-keyboard-settings-ipha7c3927eb/ios)
+* [Use shortcuts on Magic Keyboard with iPhone](https://support.apple.com/guide/iphone/use-shortcuts-iph3da414515/17.0/ios/17.0)
+* [Pair Magic Keyboard with iPhone](https://support.apple.com/guide/iphone/pair-magic-keyboard-iph4288319c0/17.0/ios/17.0)
 
 
