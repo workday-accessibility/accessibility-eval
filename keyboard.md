@@ -36,12 +36,12 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 
 |                                                                    Action                                                                    |     Magic keyboard    |      Logitech K480       | [keyboard model] |
 |----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|--------------------------|------------------|
-| Navigate to the next interactive element                                                                                                     | `Tab`                 | `tab`                    |                  |
+| Navigate to the next interactive element                                                                                                     | `tab`                 | `tab`                    |                  |
 | Navigate to the previous interactive element                                                                                                 | `shift + tab`         | `shift + tab`            |                  |
 | Scroll/Go to next item in group <br /> Select items in a collection, list, or menu                                                           | `arrow keys`          | `arrow keys`             |                  |
 | Activate an interactive element                                                                                                              | `enter` or `space bar` | `enter` or `space bar`    |                  |
 | Go Back. This can be used to dismiss menus and popups.                                                                                       | `command + backspace` | `search-icon key + back` |                  |
-| Exit                                                                                                                                         | `Esc`                 | `esc`                    |                  |
+| Exit                                                                                                                                         | `esc`                 | `esc`                    |                  |
 | Switch between apps                                                                                                                          | `option + tab`        | `alt + tab`              |                  |
 | Switch between panes such as top navigation pane and main content [^1]                                                                       | `command + tab`       | `start + tab`  |                  |
 | Open keyboard shortcuts list. <br /> - The shortcuts for Home, Back and Notifications use the search-icon key which is just the command key. | `command + /`         | `start + /`    |                  |
