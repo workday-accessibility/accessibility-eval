@@ -16,6 +16,9 @@ Any bluetooth keyboard should work. If you are testing both iOS and Android, it 
 ## Discovering the keystrokes
 ### Android’s keyboard shortcuts
 After connecting the keyboard, go to `Settings > System > Languages & Input > Physical Keyboard > Keyboard Shortcuts`.
+
+**Note:** These steps were reproduced on a Pixel 5a running Android 13.
+
 This will display a list of keyboard shortcuts.
 
 <img src="images/image1.png" alt="Android keyboard shortcuts" width="250"/>
@@ -101,9 +104,9 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 	</li>
 	<li>Ensure the focus order is logical.
 		<ol start="1" type="a">
-			<li>When navigation sequences affect meaning and operability, focusable components need to receive focus in an order that preserves meaning and operability.</li>
-			<li>The focus order should generally follow the top to bottom start to end reading order but it may divert from this if the order.</li>
-			<li>When a modal appears focus should be set in the modal and when dismissed, focus should be returned to the triggering element.</li>
+			<li>When navigation sequences affect meaning and operability, focusable elements need to receive focus in an order that preserves meaning and operability.</li>
+			<li>The focus order should generally follow the reading order: top to bottom and start to end. However, the focus order can also differ as long as the order makes sense for the activity. </li>
+			<li>When a popup appears focus should be set on the new content and when dismissed, focus should be returned to the triggering element.</li>
 		</ol>
 	 </li>
 	<li>Ensure keyboard focus is visible.
@@ -116,20 +119,20 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 			</li>
 			<li><strong>Android:</strong>
 				<ol start="1" type="i">
-					<li>The default focus indicator tends to be very faint. In cases where the developer has not modified the default Android styles (unlikely), then the default indicator is sufficient.</li>
+					<li>The default focus indicator tends to be very faint. In cases where the developer has not modified the default Android styles (including background color and button color), then the default indicator is sufficient. But in the much more likely case, the developer must ensure the focus indicator is sufficient and should adjust the default to ensure the contrast ratio is at least 3:1.</li>
 				</ol>
 			</li>
 		</ol>
 	</li>
 	<li>When any user interface component receives focus, ensure it does not initiate a change of context. <strong>Note:</strong> this is unlikely to occur on native mobile apps.
 		<ol start="1" type="a">
-			<li>Ensure elements receive focus do not cause any of the following:
+			<li>Ensure elements receiving focus do not cause any of the following:
 				<ol start="1" type="i">
 					<li>Forms submitted automatically;</li>
-					<li>New windows launched;</li>
-					<li>Focus is changed to another component when that component receives focus;</li>
-					<li>Switching to a different app or user agent</li>
-					<li>Changes to content that affect the meaning of the screen/page.</li>
+					<li>New windows are launched;</li>
+					<li>Focus jumps to another component;</li>
+					<li>A different app or user agent is activated;</li>
+					<li>Content is changed that affects the meaning of the screen/page;</li>
 				</ol>
 			</li>
 		</ol>
@@ -140,14 +143,14 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 				<ol start="1" type="i">
 					<li>There is a mechanism available to turn the shortcut off;</li>
 					<li>A mechanism is available to remap the shortcut to include one or more non-printable keyboard keys (e.g., <code>Ctrl, Alt/Option</code>)</li>
-					<li>The keyboard shortcut for a user interface component is only active when that component has focus.</li>
+					<li>The keyboard shortcut for a user interface element is only active when that element has focus.</li>
 				</ol>
 			</li>
 		</ol>
 	</li>
 	<li>Ensure content which appears in focus, is persistent and dismissable. <strong>Note:</strong> this is unlikely to occur on native mobile apps.
 		<ol start="1" type="a">
-			<li>Where receiving and then keyboard focus triggers additional content to become visible and then hidden, the following are true:
+			<li>Where receiving keyboard focus triggers additional content to become visible and then hidden, the following are true:
 				<ol start="1" type="i">
 					<li>Dismissible: A mechanism is available to dismiss the additional content without moving keyboard focus, unless the additional content communicates an input error or does not obscure or replace other content;</li>
 					<li>Persistent: The additional content remains visible until the focus trigger is removed, the user dismisses it, or its information is no longer valid.</li>
