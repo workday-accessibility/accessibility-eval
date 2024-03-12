@@ -43,8 +43,8 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 | Navigate to the previous interactive element                                                                                                 | `shift + tab`         | `shift + tab`            | `shift + tab`                 |
 | Scroll/Go to next item in group <br /> Select items in a collection, list, or menu                                                           | `arrow keys`          | `arrow keys`             | `arrow keys`                |
 | Activate an interactive element                                                                                                              | `enter` or `space bar` | `enter` or `space bar`    |  `enter` or `space bar`                |
-| Go Back. This can be used to dismiss menus and popups.                                                                                       | `command + backspace` | `search-icon key + back` |  `start + left arrow` or `Back/F6`                 |
-| Exit                                                                                                                                         | `esc`                 | `esc`                    | `Back/F6` or `home/F4`                  |
+| Go Back. This can be used to dismiss menus and popups.                                                                                       | `command + backspace` | `search-icon key + back` |  `start + left arrow` or `back/F6`                 |
+| Exit                                                                                                                                         | `esc`                 | `esc`                    | `back/F6` or `home/F4`                  |
 | Switch between apps                                                                                                                          | `option + tab`        | `alt + tab`              | `alt + tab` or `start + tab`                 |
 | Switch between panes such as top navigation pane and main content [^1]                                                                       | `command + tab`       | `start + tab`  |       Android 13 or lower: Android 14+: `control + tab` |
 | Open keyboard shortcuts list. <br /> - The shortcuts for Home, Back and Notifications use the search-icon key which is just the command key. | `command + /`         | `start + /`             |`start + /` (Does not work with numpad  / key)   |
@@ -61,9 +61,9 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 | Activate an interactive element                                                    | `space bar`         |  `space bar`     |  `space bar`     |
 | Show Help                                                                          | `tab + h`           |  `tab + h`       |   `tab + h`      |
 | Go Back. This can be used to dismiss menus and popups.                             | `tab +  b`          |   `tab +  b`     |  `tab +  b`      |
-| Exit                                                                               | `esc`               |   `esc`          |  `Back/F6` or `Home/F4`  |
+| Exit                                                                               | `esc`               |   `esc`          |  `back/F6` or `home/F4`  |
 | Show Custom Accessibility Actions                                                  | `tab + z`           |  `tab + z`       |   `tab + z`          |
-| Switch between apps                                                                | `function + up arrow` | Double-press `Back/F4` |  Double-press `Back/F6`    |
+| Switch between apps                                                                | `function + up arrow` | Double-press `back/F4` |  Double-press `back/F6`    |
 
 
 # Testing
@@ -119,7 +119,7 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 			</li>
 			<li><strong>Android:</strong>
 				<ol start="1" type="i">
-					<li>The default focus indicator tends to be very faint. In cases where the developer has not modified the default Android styles (including background color and button color), then the default indicator is sufficient. But in the much more likely case, the developer must ensure the focus indicator is sufficient and should adjust the default to ensure the contrast ratio is at least 3:1.</li>
+					<li>The default focus indicator tends to be very faint. In cases where the developer has not modified the default Android styles (including background color and button color), then the default indicator is sufficient. But in the much more unlikely case of custom focus styles, the developer must ensure the focus indicator is sufficient and should adjust the default to ensure the contrast ratio is at least 3:1.</li>
 				</ol>
 			</li>
 		</ol>
