@@ -37,33 +37,33 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 
 ## Keystrokes for testing on Android
 
-|                                                                    Action                                                                    |     Magic keyboard    |      Logitech K480       | [keyboard model] |
+|                                                                    Action                                                                    |     Magic keyboard    |      Logitech K480       | Logitech K780 |
 |----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|--------------------------|------------------|
-| Navigate to the next interactive element                                                                                                     | `tab`                 | `tab`                    |                  |
-| Navigate to the previous interactive element                                                                                                 | `shift + tab`         | `shift + tab`            |                  |
-| Scroll/Go to next item in group <br /> Select items in a collection, list, or menu                                                           | `arrow keys`          | `arrow keys`             |                  |
-| Activate an interactive element                                                                                                              | `enter` or `space bar` | `enter` or `space bar`    |                  |
-| Go Back. This can be used to dismiss menus and popups.                                                                                       | `command + backspace` | `search-icon key + back` |                  |
-| Exit                                                                                                                                         | `esc`                 | `esc`                    |                  |
-| Switch between apps                                                                                                                          | `option + tab`        | `alt + tab`              |                  |
-| Switch between panes such as top navigation pane and main content [^1]                                                                       | `command + tab`       | `start + tab`  |                  |
-| Open keyboard shortcuts list. <br /> - The shortcuts for Home, Back and Notifications use the search-icon key which is just the command key. | `command + /`         | `start + /`    |                  |
+| Navigate to the next interactive element                                                                                                     | `tab`                 | `tab`                    | `tab`                 |
+| Navigate to the previous interactive element                                                                                                 | `shift + tab`         | `shift + tab`            | `shift + tab`                 |
+| Scroll/Go to next item in group <br /> Select items in a collection, list, or menu                                                           | `arrow keys`          | `arrow keys`             | `arrow keys`                |
+| Activate an interactive element                                                                                                              | `enter` or `space bar` | `enter` or `space bar`    |  `enter` or `space bar`                |
+| Go Back. This can be used to dismiss menus and popups.                                                                                       | `command + backspace` | `search-icon key + back` |  `start + left arrow` OR `Back/F6`                 |
+| Exit                                                                                                                                         | `esc`                 | `esc`                    | `Back/F6` OR `home/F4`                  |
+| Switch between apps                                                                                                                          | `option + tab`        | `alt + tab`              | `alt + tab` or `start + tab`                 |
+| Switch between panes such as top navigation pane and main content [^1]                                                                       | `command + tab`       | `start + tab`  |       Android 13 or lower: Android 14+: `control + tab` |
+| Open keyboard shortcuts list. <br /> - The shortcuts for Home, Back and Notifications use the search-icon key which is just the command key. | `command + /`         | `start + /`             |`start + /` (Does not work with numpad  / key)   |
 
 [^1]: On Android 14, switching between panes is done with control + tab
 
 ## Keystrokes for testing on iOS
 
-|                                       Action                                       |    Magic keyboard   | Logitech K480 | [keyboard model] |
-|------------------------------------------------------------------------------------|---------------------|---------------|------------------|
-| Navigate to the next interactive element                                           | `tab`               |               |                  |
-| Navigate to the previous interactive element                                       | `shift + tab`         |               |                  |
-| Scroll/Go to next item in group <br /> Select items in a collection, list, or menu | `arrow keys`        |               |                  |
-| Activate an interactive element                                                    | `space bar`         |               |                  |
-| Show Help                                                                          | `tab + h`           |               |                  |
-| Go Back. This can be used to dismiss menus and popups.                             | `tab +  b`          |               |                  |
-| Exit                                                                               | `esc`               |               |                  |
-| Show Custom Accessibility Actions                                                  | `tab + z`           |               |                  |
-| Switch between apps                                                                | `function + up arrow` |               |                  |
+|                                       Action                                       |    Magic keyboard   | Logitech K480    | Logitech K780 |
+|------------------------------------------------------------------------------------|---------------------|------------------|------------------|
+| Navigate to the next interactive element                                           | `tab`               |    `tab`         |  `tab`           |
+| Navigate to the previous interactive element                                       | `shift + tab`       |  shift + tab`    | shift + tab`     |
+| Scroll/Go to next item in group <br /> Select items in a collection, list, or menu | `arrow keys`        |  `arrow keys`    |  `arrow keys`    |
+| Activate an interactive element                                                    | `space bar`         |  `space bar`     |  `space bar`     |
+| Show Help                                                                          | `tab + h`           |  `tab + h`       |   `tab + h`      |
+| Go Back. This can be used to dismiss menus and popups.                             | `tab +  b`          |   `tab +  b`     |  `tab +  b`      |
+| Exit                                                                               | `esc`               |   `esc`          |  `Back/F6` OR `Home/F4`  |
+| Show Custom Accessibility Actions                                                  | `tab + z`           |  `tab + z`       |   `tab + z`          |
+| Switch between apps                                                                | `function + up arrow` | Double-press `Back/F4` |  Double-press `Back/F6`    |
 
 
 # Testing
