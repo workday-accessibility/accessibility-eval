@@ -17,7 +17,8 @@ Any bluetooth keyboard should work. If you are testing both iOS and Android, it 
 ### Android’s keyboard shortcuts
 After connecting the keyboard, go to `Settings > System > Languages & Input > Physical Keyboard > Keyboard Shortcuts`.
 
-**Note:** These steps were reproduced on a Pixel 5a running Android 13.
+> [!NOTE]  
+> These steps were reproduced on a Pixel 5a running Android 13.
 
 This will display a list of keyboard shortcuts.
 
@@ -46,10 +47,9 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 | Go Back. This can be used to dismiss menus and popups.                                                                                       | `command + backspace`  | `search-icon key + back` | `start + left arrow` or `back/F6`|
 | Exit                                                                                                                                         | `esc`                  | `esc`                    | `back/F6` or `home/F4`           |
 | Switch between apps                                                                                                                          | `option + tab`         | Android 13 or lower: `alt + tab` <br/>Android 14 and up: `alt + tab` or `start + tab` | Android 13 or lower: `alt + tab` <br/>Android 14 and up: `alt + tab` or `start + tab`|
-| Switch between panes such as top navigation pane and main content [^1]                                                                       | Android 13 or lower: `command + tab`<br/>Android 14 and up: `control + tab`| Android 13 or lower: `start + tab` <br/>Android 14 and up: `control + tab` | Android 13 or lower: `start + tab` <br/>Android 14 and up: `control + tab` |
-| Open keyboard shortcuts list. <br /> - The shortcuts for Home, Back and Notifications use the search-icon key which is just the command key. | `command + /`         | `start + /`             |`start + /` <br/>(Does not work with numpad  / key)   |
+| Switch between panes such as top navigation pane and main content                                                                        | Android 13 or lower: `command + tab`<br/>Android 14 and up: `control + tab`| Android 13 or lower: `start + tab` <br/>Android 14 and up: `control + tab` | Android 13 or lower: `start + tab` <br/>Android 14 and up: `control + tab` |
+| Open keyboard shortcuts list. <br /> - The shortcuts for Home, Back and Notifications use the search-icon key which is just the command key. | `command + /`         | `start + /`             |`start + /` <br/>(Does not work with numpad  `/` key)   |
 
-[^1]: On Android 14, switching between panes is done with control + tab
 
 ## Keystrokes for testing on iOS
 
@@ -168,4 +168,6 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 * [Use shortcuts on Magic Keyboard with iPhone](https://support.apple.com/guide/iphone/use-shortcuts-iph3da414515/17.0/ios/17.0)
 * [Pair Magic Keyboard with iPhone](https://support.apple.com/guide/iphone/pair-magic-keyboard-iph4288319c0/17.0/ios/17.0)
 
-
+### Google Android
+* [Use TalkBack keyboard shortcuts](https://support.google.com/accessibility/android/answer/6110948?hl=en#zippy=%2Cdefault-keymap)
+* [Use accessibility shortcuts](https://support.google.com/accessibility/android/answer/7650693?hl=en)
