@@ -1,4 +1,4 @@
-# Keyboard Accessibility testing on mobile devices
+# Keyboard accessibility testing on mobile devices
 
 # Setup
 ## Which keyboard should you get?
