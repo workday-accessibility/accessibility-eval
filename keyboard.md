@@ -25,7 +25,7 @@ This will display a list of keyboard shortcuts.
 
 The shortcut list uses a search icon which may be present on some keyboards such as the Logitech K480 and the Logitech K780. On other keyboards, such as Apple’s Magic Keyboard, this corresponds to the command key. 
 
-The list of shortcuts shown does not show how to perform some critical actions like navigating between the top bar and the main content and the keystrokes cannot be re-mapped.Refer to our keystrokes table for a full list.
+The list of shortcuts shown does not show how to perform some critical actions like navigating between the top bar and the main content and the keystrokes cannot be re-mapped. Refer to our keystrokes table for a full list.
 
 <img src="images/image2.png" alt="Apple keyboard shortcuts mapping" width="250"/>
 
@@ -37,17 +37,17 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 
 ## Keystrokes for testing on Android
 
-|                                                                    Action                                                                    |     Magic keyboard    |      Logitech K480       | Logitech K780 |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|--------------------------|------------------|
-| Navigate to the next interactive element                                                                                                     | `tab`                 | `tab`                    | `tab`                 |
-| Navigate to the previous interactive element                                                                                                 | `shift + tab`         | `shift + tab`            | `shift + tab`                 |
-| Scroll/Go to next item in group <br /> Select items in a collection, list, or menu                                                           | `arrow keys`          | `arrow keys`             | `arrow keys`                |
-| Activate an interactive element                                                                                                              | `enter` or `space bar` | `enter` or `space bar`    |  `enter` or `space bar`                |
-| Go Back. This can be used to dismiss menus and popups.                                                                                       | `command + backspace` | `search-icon key + back` |  `start + left arrow` or `back/F6`                 |
-| Exit                                                                                                                                         | `esc`                 | `esc`                    | `back/F6` or `home/F4`                  |
-| Switch between apps                                                                                                                          | `option + tab`        | `alt + tab`              | `alt + tab` or `start + tab`                 |
-| Switch between panes such as top navigation pane and main content [^1]                                                                       | `command + tab`       | `start + tab`  |       Android 13 or lower: Android 14+: `control + tab` |
-| Open keyboard shortcuts list. <br /> - The shortcuts for Home, Back and Notifications use the search-icon key which is just the command key. | `command + /`         | `start + /`             |`start + /` (Does not work with numpad  / key)   |
+|                                                                    Action                                                                    |     Magic keyboard     |      Logitech K480       | Logitech K780                    |
+|----------------------------------------------------------------------------------------------------------------------------------------------|------------------------|--------------------------|----------------------------------|
+| Navigate to the next interactive element                                                                                                     | `tab`                  | `tab`                    | `tab`                            |
+| Navigate to the previous interactive element                                                                                                 | `shift + tab`          | `shift + tab`            | `shift + tab`                    |
+| Scroll/Go to next item in group <br /> Select items in a collection, list, or menu                                                           | `arrow keys`           | `arrow keys`             | `arrow keys`                     |
+| Activate an interactive element                                                                                                              | `enter` or `space bar` | `enter` or `space bar`   | `enter` or `space bar`           |
+| Go Back. This can be used to dismiss menus and popups.                                                                                       | `command + backspace`  | `search-icon key + back` | `start + left arrow` or `back/F6`|
+| Exit                                                                                                                                         | `esc`                  | `esc`                    | `back/F6` or `home/F4`           |
+| Switch between apps                                                                                                                          | `option + tab`         | Android 13 or lower: `alt + tab` <br/>Android 14 and up: `alt + tab` or `start + tab` | Android 13 or lower: `alt + tab` <br/>Android 14 and up: `alt + tab` or `start + tab`|
+| Switch between panes such as top navigation pane and main content [^1]                                                                       | Android 13 or lower: `command + tab`<br/>Android 14 and up: `control + tab`| Android 13 or lower: `start + tab` <br/>Android 14 and up: `control + tab` | Android 13 or lower: `start + tab` <br/>Android 14 and up: `control + tab` |
+| Open keyboard shortcuts list. <br /> - The shortcuts for Home, Back and Notifications use the search-icon key which is just the command key. | `command + /`         | `start + /`             |`start + /` <br/>(Does not work with numpad  / key)   |
 
 [^1]: On Android 14, switching between panes is done with control + tab
 
