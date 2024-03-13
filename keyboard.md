@@ -162,12 +162,12 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 </ol>
 
 
-## References
-### Apple iPhone
+# References
+## Apple iPhone
 * [	Adjust the onscreen and external keyboard settings on iPhone - Apple Support](https://support.apple.com/guide/iphone/adjust-keyboard-settings-ipha7c3927eb/ios)
 * [Use shortcuts on Magic Keyboard with iPhone](https://support.apple.com/guide/iphone/use-shortcuts-iph3da414515/17.0/ios/17.0)
 * [Pair Magic Keyboard with iPhone](https://support.apple.com/guide/iphone/pair-magic-keyboard-iph4288319c0/17.0/ios/17.0)
 
-### Google Android
+## Google Android
 * [Use TalkBack keyboard shortcuts](https://support.google.com/accessibility/android/answer/6110948?hl=en#zippy=%2Cdefault-keymap)
 * [Use accessibility shortcuts](https://support.google.com/accessibility/android/answer/7650693?hl=en)
