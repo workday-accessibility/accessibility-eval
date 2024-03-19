@@ -33,6 +33,7 @@ The list of shortcuts shown does not show how to perform some critical actions l
 Go to `Settings > Accessibility > Keyboards > Full Keyboard Access > Commands`.
 
 This gives a full list of the commands and allows re-mapping and recording keyboard shortcuts.
+
 <img src="images/image2.png" alt="Apple keyboard shortcuts mapping" width="250"/>
 
 
