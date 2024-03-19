@@ -24,17 +24,17 @@ This will display a list of keyboard shortcuts.
 
 <img src="images/image1.png" alt="Android keyboard shortcuts" width="250"/>
 
-The shortcut list uses a search icon which may be present on some keyboards such as the Logitech K480 and the Logitech K780. On other keyboards, such as Apple’s Magic Keyboard, this corresponds to the command key. 
+The shortcut list uses a search icon which may be present on some keyboards. On the Logitech K480 and K780 models, the search icon corresponds to the start key. On Apple’s Magic Keyboard, this corresponds to the command key. You may need to experiment and confirm to determine what this is on your keyboard.
 
-The list of shortcuts shown does not show how to perform some critical actions like navigating between the top bar and the main content and the keystrokes cannot be re-mapped. Refer to our keystrokes table for a full list.
-
-<img src="images/image2.png" alt="Apple keyboard shortcuts mapping" width="250"/>
+The list of shortcuts shown does not show how to perform some critical actions like navigating between the top bar and the main content but this is provided in the full keystroke table below (action: Switch between panes). Also, Android keystrokes cannot be re-mapped.
 
 
 ### iOS Full Keyboard Access Commands
 Go to `Settings > Accessibility > Keyboards > Full Keyboard Access > Commands`.
 
 This gives a full list of the commands and allows re-mapping and recording keyboard shortcuts.
+<img src="images/image2.png" alt="Apple keyboard shortcuts mapping" width="250"/>
+
 
 ## Keystrokes for testing on Android
 
