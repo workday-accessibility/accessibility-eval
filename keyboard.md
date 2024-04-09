@@ -54,17 +54,19 @@ This gives a full list of the commands and allows re-mapping and recording keybo
 
 ## Keystrokes for testing on iOS
 
-|                                       Action                                       |    Magic keyboard   | Logitech K480    | Logitech K780 |
-|------------------------------------------------------------------------------------|---------------------|------------------|------------------|
-| Navigate to the next interactive element                                           | `tab`               |    `tab`         |  `tab`           |
-| Navigate to the previous interactive element                                       | `shift + tab`       |  `shift + tab`    | `shift + tab`     |
-| Scroll/Go to next item in group <br /> Select items in a collection, list, or menu | `arrow keys`        |  `arrow keys`    |  `arrow keys`    |
-| Activate an interactive element                                                    | `space bar`         |  `space bar`     |  `space bar`     |
-| Show Help                                                                          | `tab + h`           |  `tab + h`       |   `tab + h`      |
-| Go Back. This can be used to dismiss menus and popups.                             | `tab +  b`          |   `tab +  b`     |  `tab +  b`      |
-| Exit                                                                               | `esc`               |   `esc`          |  `back/F6` or `home/F4`  |
-| Show Custom Accessibility Actions                                                  | `tab + z`           |  `tab + z`       |   `tab + z`          |
-| Switch between apps                                                                | `function + up arrow` | Double-press `back/F4` |  Double-press `back/F6`    |
+|                                                                     Action                                                                     |     Magic keyboard    |     Logitech K480      |     Logitech K780      |
+|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|------------------------|------------------------|
+| Navigate to the next interactive element (within current "Tab Group")                                                                          | `tab`                 | `tab`                  | `tab`                  |
+| Navigate to the previous interactive element (within current "Tab Group")                                                                      | `shift + tab`         | `shift + tab`          | `shift + tab`          |
+| Navigate to the next interactive element (linearly regardless of tab group)                                                                    | `ctrl + tab`          |                        |                        |
+| Navigate to the previous interactive element (regardless of tab group)                                                                         | `shift + ctrl + tab`  |                        |                        |
+| Scroll/Go to next item in group <br /> Select items in a collection, list, or menu <br /> Arrow keys are directional within currrent tab group | `arrow keys`          | `arrow keys`           | `arrow keys`           |
+| Activate an interactive element                                                                                                                | `space bar`           | `space bar`            | `space bar`            |
+| Show Help                                                                                                                                      | `tab + h`             | `tab + h`              | `tab + h`              |
+| Go Back. This can be used to dismiss menus and popups.                                                                                         | `tab +  b`            | `tab +  b`             | `tab +  b`             |
+| Exit                                                                                                                                           | `esc`                 | `esc`                  | `back/F6` or `home/F4` |
+| Show Custom Accessibility Actions                                                                                                              | `tab + z`             | `tab + z`              | `tab + z`              |
+| Switch between apps                                                                                                                            | `function + up arrow` | Double-press `back/F4` | Double-press `back/F6` |
 
 
 # Testing
